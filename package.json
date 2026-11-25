@@ -1,0 +1,24 @@
+{
+  "name": "loudness-check",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Free LUFS meter for editors. Measures integrated loudness, true peak and loudness range, compares platform levels and gives an ffmpeg fix. Runs in your browser.",
+  "homepage": "https://vaghelabhavesh.com/loudness-check.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beliveedits/loudness-check.git"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "test:e2e": "node tests/run-e2e.js"
+  },
+  "keywords": [
+    "LUFS meter",
+    "loudness meter online",
+    "true peak checker",
+    "YouTube loudness",
+    "normalize audio -14 LUFS"
+  ],
+  "author": "Bhavesh Vaghela"
+}
